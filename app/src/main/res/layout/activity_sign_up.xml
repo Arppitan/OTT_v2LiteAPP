@@ -1,0 +1,73 @@
+<!-- activity_sign_up.xml -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- VideoView for the background -->
+
+    <VideoView
+        android:id="@+id/videoViewBackground"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <EditText
+        android:id="@+id/editTextUsernameSignUp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextUsernameSignUp"
+        android:layout_marginTop="0dp"
+        android:hint="Username" />
+
+    <TextView
+        android:layout_width="397dp"
+        android:layout_height="136dp"
+        android:layout_alignBottom="@+id/editTextUsernameSignUp"
+        android:layout_marginBottom="-158dp"
+        android:text="SIGN UP"
+        android:textSize="95dp" />
+
+    <EditText
+        android:id="@+id/editTextPasswordSignUp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextUsernameSignUp"
+        android:layout_marginTop="190dp"
+        android:hint="Password"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/editTextDOBSignUp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextPasswordSignUp"
+        android:layout_marginTop="28dp"
+        android:hint="Date of Birth"
+        android:inputType="date" />
+
+    <EditText
+        android:id="@+id/editTextEmailSignUp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextDOBSignUp"
+        android:layout_marginTop="21dp"
+        android:hint="Email" />
+
+    <EditText
+        android:id="@+id/editTextPhoneSignUp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextEmailSignUp"
+        android:layout_marginTop="23dp"
+        android:hint="Phone Number"
+        android:inputType="phone" />
+
+    <Button
+        android:id="@+id/buttonSignUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextPhoneSignUp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:text="Sign Up" />
+
+</RelativeLayout>

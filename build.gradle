@@ -1,0 +1,18 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+plugins {
+    id 'com.android.application' version '8.1.2' // Apply the Android application plugin
+}
+
+android {
+    // Specify the namespace for the module
+    namespace "com.example.myapp"
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_11
+        targetCompatibility JavaVersion.VERSION_11
+    }
+    compileSdk 31
+    buildToolsVersion '33.0.1'// Replace "com.example.myapp" with your desired namespace
+}
+
+// Other configurations for your project...
+
